@@ -4,6 +4,7 @@
     "description": "Modulo Extranet",
     "scripts": {
         "build-front:dev": "webpack-dev-server --env.ENVIRONMENT=dev --config ./.build/webpack/webpack.config.js",
+        "build-front:prod": "webpack -p --env.ENVIRONMENT=prod --config ./.build/webpack/webpack.prod.config.js",
         "start": "npm run build-front:dev",
         "prettier:check": "prettier --config .prettierrc --check \"src/**/*.{tsx,ts,jsx,js,json}\"",
         "prettier:fix": "prettier --config .prettierrc --write \"src/**/*.{tsx,ts,jsx,js,json}\"",
@@ -33,6 +34,7 @@
         "dotenv": "8.2.0",
         "prop-types": "15.7.2",
         "react": "16.12.0",
+        "react-dom": "^16.12.0",
         "react-router-dom": "5.1.2"
     },
     "devDependencies": {

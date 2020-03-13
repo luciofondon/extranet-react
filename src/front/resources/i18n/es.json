@@ -1,4 +1,22 @@
 {
-    "help": "Ajuda'ns a millorar",
-    "language": "Idioma"
+	"menu": [
+		{ "label": "Inicio", "id": "inici", "path": "/inici" },
+		{ "label": "Tarjeta", "id": "targeta", "path": "/targeta" },
+		{
+			"label": "Últimos movimientos",
+			"id": "darrers-movimients",
+			"path": "/darrers-movimients"
+		},
+		{ "label": "Monedero", "id": "moneder", "path": "/moneder" },
+		{ "label": "Muévete Bien", "id": "mou-te-be", "path": "/mou-te-be" }
+	],
+	"help": "Ayúdanos a mejorar",
+	"language": "Idioma",
+	"favoriteLine": "Líneas favoritas",
+	"nextHour": "Próximas horas de paso",
+	"notifications": "Notificationes",
+	"payment": "Abonos",
+	"cookies": "Política de cookies",
+	"privacy": "Información legal y política de privacidad",
+	"consortium": "© Consorci de Transports de Mallorca"
 }
